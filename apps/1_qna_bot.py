@@ -1,10 +1,10 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 import streamlit as st 
 
-llm = ChatGoogleGenerativeAI (model="gemini-2.5-flash-lite")
+llm = ChatGroq(model="openai/gpt-oss-20b",temperature=0)
 
 st.title ("🤖 GenAI Q&A Assistant")
 st.markdown (
