@@ -27,6 +27,8 @@ print(st.session_state.memory)
 ### Buliding Web Interface
 
 st.subheader("🤖 SearchAgent AI")
+st.caption("AI-powered answers with real-time web search")
+
 for message in st.session_state.history :
     role = message ["role"]
     content = message ["content"]
