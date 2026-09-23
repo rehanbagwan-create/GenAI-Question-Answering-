@@ -36,4 +36,3 @@ if question:
     st.chat_message("ai").markdown(result.content)
     st.session_state.message.append({"role":"ai","content": result.content}) 
 
-
