@@ -1,6 +1,8 @@
 streamlit
 langchain
 langchain-groq
+langchain-community
+langgraph
 python-dotenv
+google-search-results
 langchain-ollama
-langchain.community
